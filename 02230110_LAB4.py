@@ -1,4 +1,4 @@
-# Implemented by partner 1(Tenzin Lhamo)
+# Implemented by partner 2(Tenzin Lhamo)
 # # Node class
 class Node:
     def __init__(self, data):
