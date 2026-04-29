@@ -1,3 +1,5 @@
+# YourStudentNo_LAB6.py
+
 def merge_sort(arr):
     comparisons = 0
     array_accesses = 0
@@ -23,7 +25,7 @@ def merge_sort(arr):
 
         while i < len(left) and j < len(right):
             comparisons += 1
-            array_accesses += 2 
+            array_accesses += 2  # accessing left[i] and right[j]
 
             if left[i] <= right[j]:
                 merged.append(left[i])
@@ -32,7 +34,7 @@ def merge_sort(arr):
                 merged.append(right[j])
                 j += 1
 
-            array_accesses += 1  
+            array_accesses += 1  # for appending
 
         # Remaining elements
         while i < len(left):
